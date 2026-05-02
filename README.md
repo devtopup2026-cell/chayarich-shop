@@ -1,0 +1,1 @@
+# chayarich-shop
