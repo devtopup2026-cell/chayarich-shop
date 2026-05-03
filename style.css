@@ -126,4 +126,40 @@ nav a {
   object-fit: cover;
   border-radius: 8px;
 }
+ */หน้ารายละเอียด*/
+.detail {
+  max-width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
 
+.detail-img img {
+  width: 400px;
+  border-radius: 12px;
+}
+
+.detail-info {
+  flex: 1;
+}
+
+.detail-info h2 {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: orange;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.buy-btn {
+  background: orange;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
