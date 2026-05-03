@@ -36,6 +36,11 @@ nav a {
   text-align: center;
 }
 
+.hero-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
 .btn {
   background: orange;
   color: white;
@@ -58,12 +63,14 @@ nav a {
   padding: 12px 20px;
   border-radius: 8px;
   cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .categories div:hover {
   background: orange;
   color: white;
 }
+
 
 /* PRODUCTS */
 .featured {
@@ -74,7 +81,7 @@ nav a {
 
 .featured h2 {
   text-align: center;
-  margin-bottom: 30px;
+  width: 100%;
 }
 
 .featured {
@@ -90,10 +97,20 @@ nav a {
   text-align: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: 0.3s;
+  border: 1px solid #eee;
+}
+
+.product h3 {
+  margin-top: 10px;
 }
 
 .product:hover {
   transform: translateY(-5px);
+}
+
+.product p {
+  color: #ff6600;
+  font-weight: bold;
 }
 
 .product img {
@@ -102,3 +119,4 @@ nav a {
   object-fit: cover;
   border-radius: 8px;
 }
+
