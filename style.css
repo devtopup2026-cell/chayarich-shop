@@ -78,3 +78,16 @@ nav a {
   background: orange;
   color: white;
 }
+
+.featured {
+  padding: 20px;
+}
+
+.product {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  background: white;
+  padding: 10px;
+  text-align: center;
+}
