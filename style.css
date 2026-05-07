@@ -165,3 +165,100 @@ nav a {
   cursor: pointer;
   margin-top: 20px;
 }
+
+
+/* TOPBAR */
+.topbar {
+  background: #1f1f1f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.search-box input {
+  width: 450px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.menu a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* MAIN BANNER */
+.main-banner {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 260px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: orange;
+}
+
+.banner {
+  flex: 1;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* PROMOTION */
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.promo-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.promo-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.promo-card p {
+  padding: 10px;
+  font-weight: bold;
+}
