@@ -228,21 +228,19 @@ nav a {
 
 .banner {
   flex: 1;
-  height: 450px;
-  background: #000;
-  border-radius: 12px;
+  height: 420px;
+  border-radius: 14px;
   overflow: hidden;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  background: #111;
 }
 
 .banner img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  border-radius: 12px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 /* PROMOTION */
