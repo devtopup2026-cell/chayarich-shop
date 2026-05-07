@@ -8,42 +8,93 @@
 
 <body>
 
-<header>
-  <h1>🏗️ Chayarich Nine Shop</h1>
+<header class="topbar">
+
+  <div class="logo">
+    <h1>🏗️ Chayarich Nine Shop</h1>
+  </div>
+
+  <div class="search-box">
+    <input type="text" placeholder="ค้นหาสินค้า...">
+  </div>
+
   <nav>
     <a href="index.html">หน้าแรก</a>
     <a href="products.html">สินค้า</a>
   </nav>
+
 </header>
 
 <section class="page-title">
   <h2>สินค้าทั้งหมด</h2>
 </section>
 
-<section class="product-list">
+<section class="products-page">
 
-  <div class="product">
-    <img src="https://images.unsplash.com/photo-1590608897129-79da98d15969">
-    <h3>ปูนซีเมนต์</h3>
-    <p>120 บาท</p>
-  </div>
+  <div class="products-grid">
 
-  <div class="product">
-    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
-    <h3>อิฐบล็อก</h3>
-    <p>10 บาท/ก้อน</p>
-  </div>
+    <div class="product-card">
+      <img src="images/cement.jpg">
 
-  <div class="product">
-    <img src="https://images.unsplash.com/photo-1581147036324-c7c4d8a4c68f">
-    <h3>เครื่องมือช่าง</h3>
-    <p>350 บาท</p>
+      <div class="product-info">
+        <h3>ปูนซีเมนต์ปอร์ตแลนด์</h3>
+
+        <p class="price">120 บาท</p>
+
+        <a href="product-detail.html" class="detail-btn">
+          ดูรายละเอียด
+        </a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/brick.jpg">
+
+      <div class="product-info">
+        <h3>อิฐบล็อก</h3>
+
+        <p class="price">10 บาท/ก้อน</p>
+
+        <a href="product-detail.html" class="detail-btn">
+          ดูรายละเอียด
+        </a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/steel.jpg">
+
+      <div class="product-info">
+        <h3>เหล็กก่อสร้าง</h3>
+
+        <p class="price">350 บาท</p>
+
+        <a href="product-detail.html" class="detail-btn">
+          ดูรายละเอียด
+        </a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/tools.jpg">
+
+      <div class="product-info">
+        <h3>เครื่องมือช่าง</h3>
+
+        <p class="price">450 บาท</p>
+
+        <a href="product-detail.html" class="detail-btn">
+          ดูรายละเอียด
+        </a>
+      </div>
+    </div>
+
   </div>
 
 </section>
 
 <footer>
-  <p>© 2026 BuildPro Shop</p>
+  <p>© 2026 Chayarich Nine Shop</p>
 </footer>
 
 </body>
