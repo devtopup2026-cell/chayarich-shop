@@ -183,11 +183,13 @@ nav a {
 }
 
 .search-box input {
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-  width: 450px;
-  padding: 12px;
-  border-radius: 8px;
+  width: 500px;
+  padding: 14px 18px;
+  border-radius: 30px;
   border: none;
+  outline: none;
+  font-size: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 .menu a {
@@ -231,7 +233,6 @@ nav a {
   height: 420px;
   border-radius: 14px;
   overflow: hidden;
-  position: relative;
   background: #111;
 }
 
@@ -269,3 +270,28 @@ nav a {
   padding: 10px;
   font-weight: bold;
 }
+
+.side-contact {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.side-contact h4 {
+  margin-bottom: 10px;
+}
+
+.side-contact p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.promo-card {
+  transition: 0.3s;
+}
+
+.promo-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
